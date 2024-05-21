@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  flex-direction: column;
+  height: 100vh;
+  background: linear-gradient(#6ec6ff, #ffffff);
+  background-repeat: no-repeat;
+}
+
+.navbar .navbar-brand {
+  font-size: 35px;
+  margin-right: 50px;
+}
+
+.navbar {
+  background-color: #4A90E2 !important;
+}
+.navbar .navbar-nav {
+  transition: all 0.7s;
+}
+.navbar .navbar-nav .nav-item {
+  font-size: 20px;
+  padding: 10px;
+  margin-right: 50px;
+}
+
+.nav-link:hover {
+  color: #FFA500 !important;
+  transition: all 0.7s;
+  transform: scale(1.09);
+  font-size: 25px;
+}
+
+footer {
+  display: flex;
+  background-color: rgba(51, 51, 51, 0.737254902);
+  margin-top: 30px;
+  height: 100px;
+  width: 100%;
+  background-position: center;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+footer p {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.redes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 40px;
+  padding: 10px;
+  color: #ffffff;
+}
+.redes a {
+  padding: 20px;
+}
+.redes p {
+  margin-bottom: 10px;
+}
+
+.fa-brands:hover {
+  color: #ffffff;
+}
+
+.parrafo1, .parrafo3, .parrafo2 {
+  background-color: #6ec6ff;
+  color: #ffffff;
+  background-position: center;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.img1, .img2 {
+  background-image: url(/multimedia/imagenes_pez/pez_111-Photoroom.png-Photoroom.png);
+  background-size: cover;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.img2 {
+  background-image: url(/multimedia/imagenes_pez/pez_1_600.png);
+}
+
+.carousel-inner {
+  height: 300px;
+  border: 2px solid #4A90E2;
+  background-position: center;
+  background-size: cover;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.carousel-item img {
+  height: 300px;
+}
+
+.itempeces {
+  height: 350px;
+  border: 2px solid #999999;
+  background-position: center;
+  background-size: cover;
+  background-color: #0077CC;
+  transition: all 0.7s;
+}
+.itempeces.imagenpeces1, .itempeces.imagenpeces8, .itempeces.imagenpeces7, .itempeces.imagenpeces6, .itempeces.imagenpeces5, .itempeces.imagenpeces4, .itempeces.imagenpeces3, .itempeces.imagenpeces2 {
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-image: url(/multimedia/imagenesPeces_peceras/pez_1.jpg);
+}
+.itempeces.imagenpeces2 {
+  animation-duration: 4s;
+  background-image: url(/multimedia/imagenesPeces_peceras/pez_2.jpg);
+}
+.itempeces.imagenpeces3 {
+  background-image: url(/multimedia/imagenesPeces_peceras/plantas_10.jpg);
+}
+.itempeces.imagenpeces4 {
+  background-image: url(/multimedia/imagenesPeces_peceras/plantas_8.jpg);
+}
+.itempeces.imagenpeces5 {
+  background-image: url(/multimedia/imagenesPeces_peceras/pez_3.jpg);
+}
+.itempeces.imagenpeces6 {
+  background-image: url(/multimedia/imagenesPeces_peceras/pez_4.jpg);
+}
+.itempeces.imagenpeces7 {
+  background-image: url(/multimedia/imagenesPeces_peceras/pez_5.jpg);
+}
+.itempeces.imagenpeces8 {
+  background-image: url(/multimedia/imagenesPeces_peceras/pez_6.jpg);
+}
+
+.itempeces:hover {
+  background-size: 100%;
+}
+
+.imgpeceras {
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-top: 30px;
+  transition: all 0.7s;
+  filter: grayscale(100%);
+}
+
+.imgpeceras:hover {
+  filter: sepia(0%);
+  transform: scale(1.09);
+}
+
+.parrafo3 {
+  min-height: 350px;
+  text-align: center;
+  transition: all 0.7s;
+  padding: 30px;
+}
+
+.parrafo3:hover {
+  transform: scale(1.09);
+}
+
+.peceras1, .peceras7, .peceras5, .peceras3 {
+  background-image: url(/multimedia/imagenesPeces_peceras/pecera_2.jpg);
+  height: 350px;
+}
+
+.peceras3 {
+  background-image: url(/multimedia/imagenesPeces_peceras/plantas_1.jpg);
+}
+
+.peceras5 {
+  background-image: url(/multimedia/imagenesPeces_peceras/plantas_17.jpg);
+}
+
+.peceras7 {
+  background-image: url(/multimedia/imagenesPeces_peceras/pecera_1.jpg);
+}
+
+.mapa {
+  margin-top: 35px;
+}
+
+.formmu {
+  margin-top: 30px;
+}
+
+.formulario {
+  background-color: #CCCCCC;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/*# sourceMappingURL=estilos.css.map */

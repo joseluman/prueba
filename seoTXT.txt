@@ -1,0 +1,60 @@
+1-se agrega un titulo claro a documento index "AQuary inicio" git commit 1.09.
+
+2-se agrego keywords PECES,PECERAS,PECERA,PLANTAS DE ACUARIO,ACUARIO,PECES DE ACUARIO a index.
+
+3-se implementa keywords en cada pagina del proyecto en las etiquetas `<meta name="keywords">.
+
+4-en cada pagina incluye las siguientes etiquetas meta :`<meta name="keywords" content="peces, peceras, acuario">`
+
+4.1-se agrega contenido relevante para la pagina index parrafos
+
+4.2-se agregan imagenes a pagina index.
+
+4.2.1- se agregan imagenes a pagina peces y peceras.
+
+4.2.2- se agrega parrafos con contenido en pagina peceras.
+
+4.3-se agrega footer y redes sociales a index. 
+
+4.4-se arega footer y redes sociales a cada pagina.
+
+5- se etiquetas,encabezados y uso de encabezados estan siguiendo la jerarquia en todas las paginas.
+
+5.1-se etiqueta pagina index con h1 en nav y h2 para titulos de parrafos.
+
+5.2-se etiqueta parrafos de pagina peceras con h2 para sus titulos.
+
+6-se aplican correctamente las etiquetas <h1> y <h2> solo se uso h1 para logos y h2 para titulos de parrafo.
+
+7- se aplica una descripcion de todas las imagenes en pagina index.
+
+7.1-se aplica una breve descripcion a imagenes usadas en pagina index.
+
+7.2- se aplica una breve descripcion a las imagenes de carrusel en index.
+
+7.3- se agrega una breve descripcion a imagenes de carrusel en pagina peceras.
+
+8- se aplica una descripcion a las imagines que componen carrusel en su totalidad.
+
+9-se aplica una descripcion a las imagenes de la pagina peces y peceras.
+
+9.1- se aplica descripcion a las imagenes de pagina peces.
+
+9.2- se aplica descripcion a las imagenes de pagina peceras.
+
+10- se hace una revision para asegurar que todas las imágenes incluyen atributos `alt` descriptivos , tamaño de las imágenes optimizado 
+como referencia commit relacionado: 1b5bd4c - se agregan imágenes a página peces y redes sociales a todas las páginas.
+
+10.1 registro de commits relevantes:
+
+1.09 - se agrega keyword a index.
+1b5bd4c - se agregan imágenes a página peces y redes sociales a todas las páginas.
+1c419f7 - se agrega un párrafo y una imagen a index, se agregan imágenes a carpetas multimedia.
+7992905 - se inserta mapa a sucursales y se agrega un fondo a body usando linear-gradient.
+76d2d63 - se crea formulario, se corrige footer usando flex box para que siempre esté al final de la página.
+3e260fe - se agrega elementos en home (párrafo y carrusel), se cambia de color nav, se agrega footer a cada página.
+d6cec67 - se agregan variables en estilos.scss relacionados con el color de las estructuras.
+95e2332 - se agrega nav a todas las páginas y se enlazan entre sí (sin modificaciones estéticas).
+e4c4865 - se enlazan las páginas a documento CSS, se insertan los links de Bootstrap y scripts v5.0.
+f1ae3bd - se crea estructura inicial (index, css, scss, carpeta páginas, carpeta multimedia).
+

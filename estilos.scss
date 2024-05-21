@@ -1,0 +1,249 @@
+$color1:#4A90E2; //nav
+$color2:#ffffff; //texto
+$color3:#333333bc;//footer
+$color4:#2979FF;//elementos o enlaces
+$color5:#0077CC;//elementos o enlaces
+$color6:#6ec6ff;//para botones o elementos a realzar
+$color7:#CCCCCC;//para fondos secundarios
+$color8:#E0E0E0;//para fondos secundarios
+$color9:#FF6347;//color coral 
+$color10:#FFA500;//color naranja (pez payaso)
+$color11:#666666;// bordes o elementos de separacion
+$color12:#999999;// bordes o elementos de separacion
+$tamaño1:100px;
+$tamaño2:200px;
+$tamaño3:350px;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    flex-direction: column;
+    height: 100vh;
+    background:linear-gradient($color6,$color2);
+    background-repeat: no-repeat;
+}
+.navbar{
+    .navbar-brand{
+        font-size: 35px;
+        margin-right:50px;
+    }
+}
+
+.navbar{
+background-color: $color1 !important;
+        .navbar-nav{
+            transition: all 0.7s;
+            .nav-item{
+                font-size: 20px;
+                padding: 10px;
+                margin-right:50px;
+            }
+            
+}
+}
+.nav-link:hover{
+    color:$color10 !important;
+    transition: all 0.7s;
+    transform: scale(1.09);
+    font-size: 25px;
+    
+}
+
+footer{
+    display: flex;
+    background-color: $color3;
+    margin-top: 30px;
+    height: 100px;
+    width: 100%;
+    background-position: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    p{
+        color: $color2;
+        font-size: 20px;
+    }
+}
+.redes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 40px;
+    padding: 10px;
+    color: $color2;
+    a {
+        padding: 20px;
+    }
+    p {
+        margin-bottom: 10px; 
+    }
+}
+.fa-brands:hover{
+    color: $color2;
+}
+    
+//Home
+.parrafo1{
+    background-color: $color6;
+    color: $color2;
+    background-position: center;
+    text-align: center;
+    font-size:20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.parrafo2{
+    @extend.parrafo1;
+}
+
+.img1{
+background-image: url(/multimedia/imagenes_pez/pez_111-Photoroom.png-Photoroom.png);
+background-size:cover;
+height:400px;
+background-repeat: no-repeat;
+background-position: center;
+border-radius: 5px;
+margin-top: 20px;
+margin-bottom: 50px;
+}
+.img2{
+    @extend.img1;
+    background-image: url(/multimedia/imagenes_pez/pez_1_600.png);
+    }
+
+.carousel-inner{
+    height: 300px;
+    border: 2px solid $color1;
+    background-position: center;
+    background-size: cover;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.carousel-item{
+    img{
+        height: 300px;
+    }
+}
+//peces
+.itempeces{
+    height: $tamaño3;
+    border: 2px solid $color12;
+    background-position: center;
+    background-size: cover;
+    background-color: $color5;
+    transition: all 0.7s;
+    
+
+
+    &.imagenpeces1{
+        background-size: 80%;
+        background-repeat: no-repeat;
+        background-image: url(/multimedia/imagenesPeces_peceras/pez_1.jpg);
+    }
+        
+    
+    &.imagenpeces2{
+        @extend .imagenpeces1;
+        animation-duration: 4s;
+        background-image: url(/multimedia/imagenesPeces_peceras/pez_2.jpg);
+    }
+    &.imagenpeces3{
+        @extend .imagenpeces1;
+        background-image: url(/multimedia/imagenesPeces_peceras/plantas_10.jpg);
+    }
+    &.imagenpeces4{
+        @extend .imagenpeces1;
+        background-image: url(/multimedia/imagenesPeces_peceras/plantas_8.jpg);
+    }
+    &.imagenpeces5{
+        @extend .imagenpeces1;
+        background-image: url(/multimedia/imagenesPeces_peceras/pez_3.jpg);
+    }
+    &.imagenpeces6{
+        @extend .imagenpeces1;
+        background-image: url(/multimedia/imagenesPeces_peceras/pez_4.jpg);
+    }
+    &.imagenpeces7{
+        @extend .imagenpeces1;
+        background-image: url(/multimedia/imagenesPeces_peceras/pez_5.jpg);
+    }
+    &.imagenpeces8{
+        @extend .imagenpeces1;
+        background-image: url(/multimedia/imagenesPeces_peceras/pez_6.jpg);
+    }
+}
+.itempeces:hover{
+    background-size: 100%;
+}
+
+
+
+//peceras
+
+.imgpeceras{
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-top: 30px;
+    transition: all 0.7s;
+    filter: grayscale(100%);
+}
+.imgpeceras:hover{
+    filter: sepia(0%);
+    transform: scale(1.09);
+}
+.parrafo3{
+    @extend .parrafo1;
+    min-height: $tamaño3;
+    text-align: center;
+    transition: all 0.7s;
+    padding: 30px;
+}
+.parrafo3:hover{
+    transform: scale(1.09);
+}
+.peceras1{
+    background-image: url(/multimedia/imagenesPeces_peceras/pecera_2.jpg);
+    height: $tamaño3; 
+}
+.peceras3{
+    @extend .peceras1;
+    background-image: url(/multimedia/imagenesPeces_peceras/plantas_1.jpg);
+    
+}
+.peceras5{
+    @extend .peceras1;
+    background-image: url(/multimedia/imagenesPeces_peceras/plantas_17.jpg);
+    
+}
+.peceras7{
+    @extend .peceras1;
+    background-image: url(/multimedia/imagenesPeces_peceras/pecera_1.jpg);
+    
+}
+//sucursales
+.mapa{
+    margin-top: 35px;
+}
+//contacto
+.formmu{
+    margin-top: 30px;}
+
+.formulario {
+    background-color: $color7;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
